@@ -17,6 +17,9 @@ const notoSansJP = Noto_Sans_JP({
 export const metadata: Metadata = {
   title: "コイントス | Coin Toss",
   description: "シンプルなコイントスアプリ。表と裏の選択を運に任せましょう。",
+  verification: {
+    google: "ix9wteh3TpkszKWWszoVjLSTB_dh3RBNOMB99x5QVYo",
+  },
 };
 
 export default function RootLayout({
